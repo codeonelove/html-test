@@ -1,1 +1,65 @@
-^_^ <3 <3 <3
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учебный документ</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <main>
+        <h1>Формы и css.</h1>
+        <form action="#" method="get">
+            <div>
+                <label for="email">E-mail:*</label>
+                <input 
+                    name="email" 
+                    type="email" 
+                    placeholder="Ваш e-mail" 
+                    id="email" 
+                    required 
+                />
+            </div>
+            <div>
+                <label for="tg">Telegram:</label>
+                <input 
+                    name="tg" 
+                    type="text" 
+                    placeholder="Ваш телеграм" 
+                    id="tg" 
+                />
+            </div>
+
+            <div>
+                <label for="topic">Выберите тему:</label>
+                <select name="topic" id="topic">
+
+                    <option value="kupit-kurs">Приобретение курсов</option>
+                    <optgroup label="Вариант вложения">
+                        <option value="2">Вторая</option>
+                        <option value="3">Третья</option>
+                    </optgroup>
+                    <option value="4">Четвёртая</option>
+
+                </select>
+            </div>
+
+            <div>
+                <label for="comment">Комментарий:</label>
+                <input 
+                    name="comment" 
+                    type="text" 
+                    placeholder="Ваш комментарий" 
+                    id="comment" 
+                />
+            </div>
+
+            <button>Отправить</button>
+
+        </form>
+    </main>
+</body>
+
+</html>
